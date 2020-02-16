@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Website</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="dist/image-marquee.js"></script>
+        <link type="text/css" rel="stylesheet" href="dist/image-marquee.css">
+    </head>
+    <body>
+       
+        <div id='el'></div>
+     
+    </body>
+
+ <script>
+    var urls=[
+        //'https://media.pitchfork.com/photos/5e272427d7f8cd0008150f51/1:1/w_560/suite_jeffparker.jpg',
+        'https://media.pitchfork.com/photos/5ddc72886133160008c6465f/1:1/w_560/suite_jeffparker.jpg',
+        'https://i.scdn.co/image/36667ea9baa32bf5f5ff620816971b3bb70b5d83',
+        'https://media.pitchfork.com/photos/5d6593d326e2b40009eed797/1:1/w_560/suite_jeffparker.jpg',
+        'https://media.pitchfork.com/photos/5cb88748090eeb2dcf25dec5/1:1/w_560/suite_jeffparker.jpg',
+        'https://i1.wp.com/alfitude.com/wp-content/uploads/2020/02/almost-monday-music.jpg?w=640&ssl=1',
+        'https://media.pitchfork.com/photos/5afb000a846bf02b4c448b2f/1:1/w_560/suite_jeffparker.jpg',
+        'https://media.pitchfork.com/photos/5ab41f308195c0189f1354ee/1:1/w_560/suite_jeffparker.jpg',
+        'https://media.pitchfork.com/photos/5a0226d7ffdefc2c0f6f16a4/1:1/w_560/suite_jeffparker.jpg',
+        'https://media.pitchfork.com/photos/59c1498b62f8b05385d543e5/1:1/w_560/suite_jeffparker.jpg'
+    ];
+    var options = {
+        //height:200,
+        width:200,
+        html:"<h1>My Message</h1>"
+    };
+    $('#el').marquee(urls,options);
+ </script> 
+
+</html>

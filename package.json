@@ -1,0 +1,16 @@
+{
+  "name": "image-marquee-js",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "Albert Kiteck <albert@paxagency.com>",
+  "description": "Header image marquee rotational gallery.",
+  "main": "dist/image-marque.js",
+  "style":"dist/image-marque.css",
+  "dependencies":{
+    "jquery":"^3.4.1"
+  },
+  "keywords": [
+    "javascript",
+    "marquee"
+  ]
+}

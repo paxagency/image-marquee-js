@@ -1,0 +1,28 @@
+.marquee {
+    width:100%;
+    height: 500px;
+    overflow:hidden;
+    position:relative;
+}
+.marquee-wrap {position:relative;}
+.marquee-dark {
+    position:absolute; 
+    width:100%;
+    height:100%; 
+    background:rgba(0,0,0,.4);
+    z-index:22;
+    text-align:center;
+    color:#fff;
+    display:table;
+    font-family:arial;
+}
+.marquee-dark > *:first-child {display: table-cell;vertical-align: middle;}
+.marquee-wrap span {
+    display:inline-block;
+    height:500px;
+    width:300px;
+    margin:0;
+    padding:0;
+    background:url('img.jpg') top center;
+    background-size:cover;
+}
